@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+  <main>
+    <div class="container">
+      <div class="flex column">
+        <div class="header-card flex">
+          <div>
+            <span>
+              My balance
+            </span>
+            <h1>
+              $921.48
+            </h1>
+          </div>
+          <div>
+            <div class="circle-white"><div class="circle-black"></div></div>
+            
+          </div>
+        </div>
+        <div class="card-container">
+          <h1 class="chartitle">Spending - Last 7 Days</h1>
+          <canvas id="myChart" style="width:100%;max-width:600px;"></canvas>
+          <div class="flex">
+            <div>
+              <span>
+                Total this month
+              </span>
+              <h1>
+                $478.33
+              </h1>
+            </div>
+            <div>
+              <h1>
+                +2.4%
+              </h1>
+              <span>
+                from last month
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/popmihaiadrianwebdevelopment">Pop Mihai Adrain</a>.
+      </div>
+    </div>
+  </main>
+
+
+  
+  
+  <script src="./char.js"></script>
+</body>
+</html>
